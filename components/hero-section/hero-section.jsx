@@ -8,8 +8,8 @@ function HeroSection() {
       <div className={styles.content}>
         <h1>Welcome to your<br/> new algorithm<br/> visualizer</h1>
 <p>If you’re looking for the state of the art Algorithm visualizer look no further<br/> Algolizer is for you!</p>
-        <Link href="/algolizer">
-         <p className={styles.button}>Get Started</p>
+        <Link href="/algorithms">
+         <p className={styles.button}>Start Now!</p>
         </Link>
       </div>
       <div className={styles.imageContainer}>

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+.header {
+  font-family: 'IBM Plex Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  background-color: #FFFFFF;
+}
+
+.title a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #33332D;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menuItem {
+  margin-right: 1rem;
+}
+
+.menuItem a {
+  color: #33332D;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+.menuItem a:hover {
+  background-color: #33332D;
+  color: white;
+  cursor: pointer;
+}
+
+.icons{
+  display: flex;
+}
+.searchIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.searchBarOpen {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.searchBarClosed {
+  display: none;
+}
+
+.searchBarOpen input[type="text"] {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.searchBarOpen button {
+  padding: 4px 8px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.profileIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.profileIcon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}

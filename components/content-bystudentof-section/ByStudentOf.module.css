@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+.clge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E1E1E1;
+    color: #33332D;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.clge > * {
+    margin-bottom: 10px;
+}

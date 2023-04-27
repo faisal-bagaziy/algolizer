@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+.hero {
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #e1e1e1;
+  color: #33332d;
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content > h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.content > p {
+  font-size: 18px;
+}
+
+

@@ -18,15 +18,10 @@
   color: #33332D;
 }
 
-.description {
-  font-size: 1.5rem;
-  margin-bottom: 4rem;
-  color: #33332D;
-}
-
 .cardsContainer {
   display: grid;
   grid-template-columns:  repeat(3, 300px);
   justify-content: center;
   gap: 1rem;
  }
+

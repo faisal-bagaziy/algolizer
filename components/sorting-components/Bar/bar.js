@@ -12,25 +12,40 @@ const Bar = ({
   sorted,
   style
 }) => {
-  let classNames = 'Bar';
-  if (sorted) classNames += ' Bar_sorted';
-  if (stateD) classNames += ' Bar_stateD';
-  else if (stateC) classNames += ' Bar_stateC';
-  else if (stateB) classNames += ' Bar_stateB';
-  else if (stateA) classNames += ' Bar_stateA';
+    let classNames = 'Bar';
+    let  color = '#fff'
+    if (sorted) {
+        classNames += ' Bar_sorted';
+        color = '#6DCC35'
+    }
+    
+    if (stateD) {
+        classNames += ` Bar_stateD`;
+        color = '#33332D'
+    } else if (stateC) {
+        classNames += ` Bar_stateC`;
+        color = '#FF5C60'
+    } else if (stateB) {
+        classNames += ` Bar_stateB`;
+        color = '#FF6E6E'
+    } else if (stateA) {
+        classNames += ` Bar_stateA`;
+        color = '#ffd54f'
+    }
 
-  let BarStyle = { ...style, width: `${width}%`, height: `${height}%`, background: '#fff', display: 'flex', flexDirection: 'column-reverse', alignItems: 'center', transition: 'all 125ms ease-in-out' };
-  if (stateA || stateB || stateC || stateD) {
-    BarStyle['marginRight'] = `${0.3 * width}%`;
-    BarStyle['marginLeft'] = `${0.3 * width}% `; 
-  }
+
+   let BarStyle = { ...style, width: `${width}%`, height: `${height}%`, background: color, display: 'flex', flexDirection: 'column-reverse', alignItems: 'center', transition: 'all 125ms ease-in-out' };
+   if (stateA || stateB || stateC || stateD) {
+     BarStyle['marginRight'] = `${0.3 * width}%`;
+     BarStyle['marginLeft'] = `${0.3 * width}% `; 
+   }
 
 
-  return (
-    <div style={BarStyle} className={styles.classNames}>
-      <span className="Bar__Text">{val}</span>
-    </div>
-  );
+    return (
+        <div style={BarStyle} className={styles.classNames}>
+        <span className="Bar__Text">{val}</span>
+        </div>
+    );
 };
 
 export default Bar;

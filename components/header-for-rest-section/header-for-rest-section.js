@@ -25,7 +25,7 @@ function HeaderForRest() {
             </Link>
           </li>
           <li className={styles.menuItem}>
-            <Link href='/algorithms'>
+            <Link href='../algorithms-catagory/algorithms'>
               Algorithms
             </Link>
           </li>

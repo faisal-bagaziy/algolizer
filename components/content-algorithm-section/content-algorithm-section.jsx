@@ -9,7 +9,7 @@ function ContentAlgorithmSection() {
         <h1 className={styles.title}>Algorithms</h1>
         <p className={styles.description}>Get started by choosing one of the following algorithm categories</p>
         <div className={styles.cardsContainer}>
-            <Link href="/">
+            <Link href="/sorting">
                  <Card title="Sorting" description="Sort a collection of values in a particular order." icon="/sort.svg" width={200} height={200} />
             </Link>
             <Link href="/">

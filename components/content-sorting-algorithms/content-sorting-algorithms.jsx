@@ -8,7 +8,7 @@ function ContentSortingAlgorithms() {
              <div className={styles.container}>
                 <h1 className={styles.title}>Sorting Algorithms</h1>
                 <div className={styles.cardsContainer}>
-                     <Link href="/">
+                     <Link href="../sorting-algorithms/bubblesort">
                         <Card title="Bubble Sort" description="Repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order." icon="/sort.svg" width={100} height={100} />
                     </Link>
                     <Link href="/">

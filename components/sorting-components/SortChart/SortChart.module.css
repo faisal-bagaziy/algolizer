@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+.SortChart {
+  font-family: 'IBM Plex Sans', sans-serif;
+  min-width: 960px; 
+  min-height: 218px;
+  height: 40vh;
+  margin-top: 20px;
+  padding: 1rem;
+
+  background-color: #e1e1e1;
+  border: solid #fff 30px;
+  border-radius: 1rem 0 1rem 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  transition: 0.75s ease-in-out;
+}
+

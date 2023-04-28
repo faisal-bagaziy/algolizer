@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+.SortVisualizer {
+  font-family: 'IBM Plex Sans', sans-serif;
+  width: auto;
+  padding: 0.5rem;
+  background-color: #fff;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.SortVisualizer__ProgressBar {
+  overflow: clip;
+  margin: 0.5rem;
+}

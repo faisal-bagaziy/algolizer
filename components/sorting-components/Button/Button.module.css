@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+/* Block */
+.Button {
+  --button-height: 36px;
+  --button-horizontal-padding: 8px;
+  --button-contained-horizontal-padding: 16px;
+  --button-height-dense: 32px;
+  --button-outlined-border-width: 1px;
+
+  /* Typography */
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #33332d;
+
+  padding: 0 12px;
+  background-color: rgba(0, 0, 0, 0);
+
+  /* Display */
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  height: 100px;
+  border: none;
+  outline: none;
+
+  /* alternate */
+  line-height: inherit;
+  user-select: none;
+  appearance: none;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.Button:active {
+  outline: none;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.Button:disabled {
+  color: gold;
+  cursor: default;
+}
+
+/* Elements */
+.Button__Icon {
+  margin-right: 4px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+.Button__Label {
+}
+
+/* Modifiers */
+.Button_uppercase {
+  text-transform: uppercase;
+}
+
+.Button_dense {
+  height: 300px;
+  font-size: 0.8125rem;
+}
+
+
+.Button_unelevated,
+.Button_unelevated:hover,
+.Button_unelevated:focus,
+.Button_unelevated:active {
+  box-shadow: none;
+}
+

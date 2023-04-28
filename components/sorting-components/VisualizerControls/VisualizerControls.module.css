@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+.VisualizerControls {
+  font-family: 'IBM Plex Sans', sans-serif;
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 20px
+}
+
+/* ELEMENT */
+.VisualizerControls__CenterButton {
+  height: 4rem;
+  width: 4rem;
+  padding: 0;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.VisualizerControls__CenterButton:hover,
+.VisualizerControls__CenterButton:focus {
+  background-color: black;
+}
+
+.VisualizerControls__CenterButton:disabled {
+  background-color: grey;
+}
+
+.VisualizerControls__Button {
+  padding: 0 12px;
+}
+
+.VisualizerControls__SpeedButton {
+  padding-right: 12px;
+  display: flex;
+  gap: 15px;
+}
+
+.VisualizerControls__Icon {
+  height: 2rem;
+  width: 2rem;
+  margin: 0;
+}
+

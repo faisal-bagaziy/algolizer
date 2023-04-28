@@ -13,18 +13,11 @@ const SortInfo = ({
   return (
     <div className={styles.SortInfo}>
       <hr />
-      <h1>{title ? title : 'Select Algorithm'}</h1>
+      <h1>{title}</h1>
 
       <div className={styles.SortInfo__Body}>
         <article className="SortInfo__Article">
-          {description ? (
-            description
-          ) : (
-            <p>
-              You must select an algorithm before you can visualize it's
-              execution on an array of numbers.
-            </p>
-          )}
+          {description}
         </article>
 
         <aside className={styles.SortInfo__Aside}>
@@ -68,12 +61,11 @@ const SortInfo = ({
 
 SortInfo.propTypes = {
   title: PropTypes.string,
-  description: PropTypes.object,
-  worstCase: PropTypes.object,
-  avgCase: PropTypes.object,
-  bestCase: PropTypes.object,
-  space: PropTypes.object
+  description: PropTypes.string,
+  worstCase: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  avgCase: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  bestCase: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  space: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
-
 export default SortInfo;
 

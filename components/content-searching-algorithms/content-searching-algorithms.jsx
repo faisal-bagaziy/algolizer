@@ -11,7 +11,7 @@ function ContentSearchingAlgorithms() {
                      <Link href="../searching-algorithm/dfs">
                         <Card title="Depth First Search" description="exploring as far as possible along each branch before backtracking." icon="/search.svg" width={100} height={100} />
                     </Link>
-                     <Link href="/">
+                     <Link href="../searching-algorithm/bfs">
                         <Card title="Breadth First Search" description="exploring all the vertices at each level of the graph before moving on to the next level." icon="/search.svg" width={100} height={100} />
                     </Link>
                      <Link href="/">

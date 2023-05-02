@@ -7,6 +7,7 @@ import NodeInfo from "../../models/NodeInfo";
 import CreateEdgeModal from "../CreateEdgeModal/CreateEdgeModal";
 import { v4 as uuidv4 } from "uuid";
 import AlgorithmOptions from "../../models/AlgorithmOptions";
+import algorithms from "../../algorithms";
 
 interface HomeProps {
   changeTheme: Function;

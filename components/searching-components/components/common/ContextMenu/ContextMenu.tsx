@@ -7,7 +7,7 @@ interface Props {
   setIsVisible: Function;
   position: Position;
   canvasRef: React.RefObject<HTMLDivElement>;
-  children: React.ReactNode;
+  children:Array<ReactElement>;
   invertedTheme?: boolean
 }
 

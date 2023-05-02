@@ -4,7 +4,7 @@ import Container from './Container';
 
 interface Props {
   onClick: Function;
-  children?: ReactChild | ReactChildren;
+  children?: React.ReactNode;
   tooltipContent: string;
 }
 

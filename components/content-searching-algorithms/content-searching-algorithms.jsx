@@ -8,7 +8,7 @@ function ContentSearchingAlgorithms() {
              <div className={styles.container}>
                 <h1 className={styles.title}>Sorting Algorithms</h1>
                 <div className={styles.cardsContainer}>
-                     <Link href="/">
+                     <Link href="../searching-algorithm/dfs">
                         <Card title="Depth First Search" description="exploring as far as possible along each branch before backtracking." icon="/search.svg" width={100} height={100} />
                     </Link>
                      <Link href="/">

@@ -13,7 +13,7 @@ function HeroSection() {
         </Link>
       </div>
       <div className={styles.imageContainer}>
-      <Image src="/HeroPic.svg" alt="Algolizer Logo" width={500} height={500} />
+      <Image src="/HeroPic.svg" alt="Algolizer Logo" width={500} height={500} className={styles.responsive} />
       </div>
     </section>
   );

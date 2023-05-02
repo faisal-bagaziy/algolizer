@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HeaderForRest from '../../../components/header-for-rest-section/header-for-rest-section'
 import SortVisualizer from '../../../components/sorting-components/SortVisualizer/SortVisualizer';
-import  '@/styles/Home.module.css';
+import  '../../styles/Home.module.css';
 import BubbleSort, {  BubbleSortKey, BubbleSortDesc } from '../../../sort-algorithms/BubbleSort';
 
 class Bubblee extends Component {

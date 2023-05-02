@@ -3,11 +3,8 @@ import Container from './Container';
 
 interface Props {
   canvasRef: React.RefObject<HTMLDivElement>;
-  children?:
-    | Array<ReactElement>
-    | ReactElement
-    | React.ReactChild
-    | React.ReactChildren;
+  children?: React.ReactNode;
+
 }
 
 const SubMenu: React.FC<Props> = (props: Props): ReactElement => {

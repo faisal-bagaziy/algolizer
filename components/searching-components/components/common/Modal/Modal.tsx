@@ -5,7 +5,7 @@ import Content from './Content';
 interface Props {
   isVisible: boolean;
   onExit: Function;
-  children?: React.ReactChild | React.ReactChildren;
+  children?: React.ReactNode;
 }
 
 const Modal: React.FC<Props> = (props: Props): ReactElement => {

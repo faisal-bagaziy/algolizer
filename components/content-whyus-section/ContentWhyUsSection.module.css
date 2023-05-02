@@ -18,8 +18,18 @@
   color: #33332D;
 }
 
+.cardsContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (min-width: 500px) {
 .cardsContainer {
   display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 15px;
  }
-
+}

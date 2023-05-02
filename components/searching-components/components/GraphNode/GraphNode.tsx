@@ -18,7 +18,7 @@ interface Props {
   nodeIndex: number;
   initialPosition?: Position;
   canvasRef: React.RefObject<HTMLDivElement>;
-  children: React.ReactChild | React.ReactChildren;
+  children:React.ReactNode;
   edgeRef: React.RefObject<HTMLSpanElement> | null;
   zoomPercentage: number;
   nodeInfo: NodeInfo;

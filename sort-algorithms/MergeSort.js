@@ -137,6 +137,31 @@ export const MergeSortDesc = {
     <span>
       O(<em>n</em>)
     </span>
-  )
+  ),
+  codeString: `MergeSort(array, left, right)   
+        if left > right 
+            return
+        mid = (left+right)/2
+        mergeSort(array, left, mid)
+        mergeSort(array, mid+1, right)
+        merge(array, left, mid, right)
+
+    Merge(array, left, mid, right )
+        n1  = mid - left +  1
+        n2 = right - mid
+        let L[1 .. n1 +1] and R[1 .. n2 + 1]
+        for  i = 1 to n1 
+            L[i] = A[left + i - 1]
+        for j = 1 to n2
+            R[j] = A[mid + j]
+        L[n1 + 1] , L[n2 + 1] = Infinity
+        i = 1
+        j = 1
+        for k = left to right
+            if L[i] ≤ R[j]
+                A[k]  = L[i]
+                i = i  + 1
+            else A[k] = R[j]
+                j = j + 1 `
 };
 export default MergeSort;

@@ -68,7 +68,13 @@ export const InsertionSortDesc = {
     </span>
   ),
   bestCase: <span>O(n)</span>,
-  space: <span>O(1)</span>
+  space: <span>O(1)</span>,
+  codeString:`InsertionSort(array[])
+   for i = 1 to arrayLength 
+       j = i
+       while j > 0 and array[j-1] > array[j] 
+           swap(array[j], array[j-1])
+           j = j - 1`
 };
 
 export default InsertionSort;

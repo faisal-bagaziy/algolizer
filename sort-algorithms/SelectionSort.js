@@ -82,7 +82,14 @@ export const SelectionSortDesc = {
       O(n<sup>2</sup>)
     </span>
   ),
-  space: <span>O(1)</span>
+  space: <span>O(1)</span>,
+  codeString: `SelectionSort(array[])
+    for i = 1 to length -  1
+        min = array[i]
+        for j  = i + 1 to length 
+            if array[j] < A[min] 
+                min  = j
+        swap(array[i], array[min])`
 };
 
 export default SelectionSort;

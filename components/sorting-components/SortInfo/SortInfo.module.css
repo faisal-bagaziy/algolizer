@@ -12,11 +12,11 @@
 
 .SortInfo__Body {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
 }
 
 .SortInfo__Article {
-  width: 50ch;
+
   line-height: 1.3;
 }
 

@@ -65,7 +65,14 @@ export const BubbleSortDesc = {
     </span>
   ),
   bestCase: <span>O(n)</span>,
-  space: <span>O(1)</span>
+  space: <span>O(1)</span>,
+  codeString:`BubbleSort([])
+    for i = 0 to arrayLength 
+        for j = 0 to (arrayLength - i - 1)
+            if arr[j] > arr[j + 1]
+                swap(arr[j], arr[j + 1])`
+
+
 };
 export default BubbleSort;
 

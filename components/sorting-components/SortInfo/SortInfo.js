@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './SortInfo.module.css';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { srcery } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+
 
 const SortInfo = ({
   title,
@@ -8,7 +11,8 @@ const SortInfo = ({
   worstCase,
   avgCase,
   bestCase,
-  space
+  space,
+  codeString
 }) => {
   return (
     <div className={styles.SortInfo}>
@@ -16,8 +20,8 @@ const SortInfo = ({
       <h1>{title}</h1>
 
       <div className={styles.SortInfo__Body}>
-        <article className="SortInfo__Article">
-          {description}
+        <article className={styles.SortInfo__Article}>
+               {description}
         </article>
 
         <aside className={styles.SortInfo__Aside}>
@@ -54,6 +58,15 @@ const SortInfo = ({
             </tbody>
           </table>
         </aside>
+        <aside className={styles.SortInfo__Aside}>
+            <h3>Psudocode</h3>
+             <article className={styles.SortInfo__Article}>
+                    <SyntaxHighlighter language="javascript" style={srcery} showLineNumbers={true}>
+                    {codeString}
+                     </SyntaxHighlighter>
+            </article>
+        </aside>
+
       </div>
     </div>
   );

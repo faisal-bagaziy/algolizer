@@ -17,6 +17,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scroll": "^1.8.9",
+    "react-syntax-highlighter": "^15.5.0",
     "styled": "^1.0.0",
     "styled-components": "^4.4.1",
     "uuid": "^9.0.0"

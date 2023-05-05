@@ -57,7 +57,7 @@ const SideNav: React.FC<Props> = (props: Props): ReactElement => {
               props.onUndirectedEdgeClick();
             }}
           >
-            Undirected
+           Create Edge
           </OptionButton>
 
         </Row>

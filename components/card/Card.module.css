@@ -6,7 +6,7 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -14,6 +14,8 @@
   font-size: 1rem;
   margin-bottom: 1rem;
   padding: 10px;
+  text-align: justify;
+  height: 75px;
 }
 .card{
   font-family: 'IBM Plex Sans', sans-serif;

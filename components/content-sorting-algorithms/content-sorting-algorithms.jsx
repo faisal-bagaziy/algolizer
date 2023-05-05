@@ -18,10 +18,10 @@ function ContentSortingAlgorithms() {
                         <Card title="Insertion Sort" description="Repeatedly taking an unsorted element and inserting it into its correct position in the sorted part of the list." icon="/sort.svg" width={100} height={100} />
                     </Link>
                     <Link href="../sorting-algorithms/mergesort">
-                        <Card title="Merge Sort" description="dividing the input list into two halves, sorting each half recursively using Merge Sort, and then merging the two sorted halves back together." icon="/sort.svg" width={100} height={100} />
+                        <Card title="Merge Sort" description="Dividing the input list into two halves, sorting each half recursively using Merge Sort, and then merging the two sorted halves back together." icon="/sort.svg" width={100} height={100} />
                     </Link>
                     <Link href="/">
-                        <Card title="Heap Sort" description=" building a binary heap data structure from the input list and repeatedly extracting the maximum element from the heap and inserting it into the sorted part of the list." icon="/sort.svg" width={100} height={100} />
+                        <Card title="Heap Sort" description=" Building a binary heap data structure from the input list and repeatedly extracting the maximum element from the heap and inserting it into the sorted part of the list." icon="/sort.svg" width={100} height={100} />
                     </Link>
                 </div>
              </div>

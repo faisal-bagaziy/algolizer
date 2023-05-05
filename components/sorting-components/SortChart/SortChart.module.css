@@ -2,7 +2,7 @@
 
 .SortChart {
   font-family: 'IBM Plex Sans', sans-serif;
-  min-width: 960px; 
+  min-width: calc(100vw - 1rem); 
   min-height: 218px;
   height: 40vh;
   margin-top: 20px;
@@ -17,5 +17,12 @@
   flex-direction: row;
   align-items: flex-end;
   transition: 0.75s ease-in-out;
+}
+
+@media (min-width: 500px){
+    .SortChart{
+        min-width: calc(100vw - 800px)
+    }
+
 }
 

@@ -57,6 +57,7 @@
   .buttonsContainer {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     gap: 50px;
     margin-bottom: 2rem;
   }

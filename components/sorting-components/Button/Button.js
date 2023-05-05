@@ -61,7 +61,7 @@ const Button = ({
       disabled={disabled}
     >
       {icon ? renderIcon(icon, iconClass) : null}
-      <span className="Button__Label">{children}</span>
+      <span className={styles.Button__Label}>{children}</span>
     </button>
   );
 };

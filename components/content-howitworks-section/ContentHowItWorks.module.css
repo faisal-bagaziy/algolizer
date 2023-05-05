@@ -15,12 +15,12 @@
   color: #333;
 }
 
-.buttonsContainer {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-bottom: 2rem;
-}
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
 
 .button {
   width: 250px;
@@ -50,4 +50,14 @@
   margin-top: 2rem;
   height: 480px;
   width: 720px;
+}
+
+@media (min-width: 500px) {
+
+  .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 2rem;
+  }
 }

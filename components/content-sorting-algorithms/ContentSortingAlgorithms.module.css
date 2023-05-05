@@ -19,9 +19,18 @@
 }
 
 .cardsContainer {
-  display: grid;
-  grid-template-columns:  repeat(3, 300px);
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
  }
 
+ @media (min-width: 500px){
+ .cardsContainer {
+   display: grid;
+   grid-template-columns:  repeat(3, 300px);
+   justify-content: center;
+   gap: 1rem;
+  }
+
+
+}

@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
 .header {
   font-family: 'IBM Plex Sans', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   padding: 16px;
   background-color: #FFFFFF;
 }
@@ -15,20 +12,12 @@
   text-decoration: none;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-}
 
 .menu {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.menuItem {
-  margin-right: 1rem;
 }
 
 .menuItem a {
@@ -99,4 +88,25 @@
 .profileIcon svg {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+@media (min-width: 500px){
+ .header {
+  font-family: 'IBM Plex Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  background-color: #FFFFFF;
+ }
+
+
+ .nav {
+  display: flex;
+  align-items: center;
+ }
+ .menuItem {
+  margin-right: 1rem;
+ }
+
 }

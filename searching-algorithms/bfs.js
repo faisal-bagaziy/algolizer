@@ -1,29 +1,11 @@
 export const  BreadthFirstDesc = {
   title: 'Breadth First Search',
-  description: (
-    <p>
-      <a
-        href="https://simple.wikipedia.org/wiki/Breadth-first_search"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        BFS
-      </a>{' '}
-        breadth-first search (BFS) is a method used for traversing a graph. It starts at any item you want to use as a starting position in a graph, and explores all of the neighbor items at the present depth before to moving on to the items at the next depth level. A breadth-first search done on a tree (data structure) is called a level-order traversal. 
-    </p>
-  ),
-  worstCase: (
-    <span>
-      O(|V|) where V is the number of nodes
-    </span>
-  ),
-  avgCase: (
-    <span>
-      O(|V|)
-    </span>
-  ),
-  bestCase: <span>O(1)</span>,
-  space: <span>O(|V|)</span>,
+  description: 'BFS  breadth-first search (BFS) is a method used for traversing a graph. It starts at any item you want to use as a starting position in a graph, and explores all of the neighbor items at the present depth before to moving on to the items at the next depth level. A breadth-first search done on a tree (data structure) is called a level-order traversal.' 
+,
+  worstCase: 'O(|V|) where V is the number of nodes',
+  avgCase: 'O(|V|)',
+  bestCase: 'O(1)',
+  space: 'O(|V|)',
   codeString:`function bfs(graph, start_vertex):
     queue = []
     visited = {}

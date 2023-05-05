@@ -10,6 +10,7 @@ const Content = styled.div`
   align-items: center;
   z-index: 9999;
   color: ${(props) => props.theme.sidebar.foreground};
+  padding: 20px;
 `;
 
 export default Content;

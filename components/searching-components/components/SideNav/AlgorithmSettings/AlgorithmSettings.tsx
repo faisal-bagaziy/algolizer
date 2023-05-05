@@ -33,7 +33,7 @@ const AlgorithmSettings: React.FC<Props> = (props: Props): ReactElement => {
   const depthLimitAlgorithms: Array<Algorithms> = [Algorithms.dls];
   return (
     <React.Fragment>
-      <ItemText>Starting Node</ItemText>
+      <ItemText>Starting Node: </ItemText>
       <Row justifyContent="center">
         <Dropdown
           selectedTile={props.algorithmOptions.startNode ?? 0}

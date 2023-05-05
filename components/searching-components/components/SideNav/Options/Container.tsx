@@ -13,6 +13,9 @@ const Container = styled.div`
   color: #33332D;
   transition: background-color 0.3s;
   cursor: pointer;
+  height: 30px;
+  margin: 10px 30px;
+  width: 120px;
 
   &:hover {
     color: white;

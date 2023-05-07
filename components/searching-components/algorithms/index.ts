@@ -1,7 +1,7 @@
 
 import bfs from "./bfs";
 
-import dls from "./dls";
+import dfsWrapper from "./dfs";
 
 const algorithms = {
   dfs: dfsWrapper,

@@ -1,5 +1,9 @@
 # Algolizer
-
+![image](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white) 
+![image](https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white)   
+![image](https://img.shields.io/badge/alacritty-F46D01?style=for-the-badge&logo=alacritty&logoColor=white) 
+![image](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![image](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ## Table of Contents
 - [Description](#description)
 - [Prerequisites](#prerequisites)
@@ -14,10 +18,8 @@ Algolizer is a web application that allows users to visualize algorithms in acti
 
 ## Prerequisites 👷🏽‍♂️
 Before using Algolizer, you should have a basic understanding of JavaScript and web development. Additionally, you should have the following prerequisites installed:
-
-- Node.js 
-- npm
-
+* Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
+* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. If you encounter any problems, you can also use this [GitHub Gist](https://gist.github.com/isaacs/579814) to install Node.j
 You can download Node.js and npm from the official website: https://nodejs.org/
 
 ## Getting Started 👨🏻‍💻

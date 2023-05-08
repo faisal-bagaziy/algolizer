@@ -26,10 +26,10 @@ function ContentHowItWorks() {
       {selectedVideo === 'sorting' && (
         <div className={styles.videoContainer}>
           <CldVideoPlayer
-              id='elephants'
+              id='Sort_s2zaqk'
               width='480'
               height='480'
-              src='https://res.cloudinary.com/dbkkaasqe/video/upload/v1682571101/samples/elephants.mp4'
+              src='https://res.cloudinary.com/dbkkaasqe/video/upload/v1683547887/Sort_s2zaqk.mp4'
               colors={{
                  accent: '#33332D',
                  base: '#E1E1E1',
@@ -44,11 +44,20 @@ function ContentHowItWorks() {
       )}
       {selectedVideo === 'searching' && (
         <div className={styles.videoContainer}>
-         <CldVideoPlayer
-            id='samples'
-            width="480"
-            height="480"
-            src="samples/sea-turtle"
+      <CldVideoPlayer
+              id='Search_zl5sja'
+              width='480'
+              height='480'
+              src='https://res.cloudinary.com/dbkkaasqe/video/upload/v1683548390/Search_zl5sja.mp4'
+              colors={{
+                 accent: '#33332D',
+                 base: '#E1E1E1',
+                 text: '#fffff'
+             }}
+              logo={{
+                 imageUrl: 'https://res.cloudinary.com/dbkkaasqe/image/upload/v1682575548/HeroPic_hds8jj.svg',
+                 onClickUrl: 'https://spacejelly.dev'
+             }}
           />
         </div>
       )}

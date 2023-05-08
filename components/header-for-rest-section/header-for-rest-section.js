@@ -38,9 +38,6 @@ function HeaderForRest() {
             <input type="text" placeholder="Search..." />
             <button onClick={toggleSearch}>Close</button>
           </div>
-          <button className={styles.profileIcon}>
-            <Image src="/login.png" alt="Profile icon" width={20} height={20} />
-          </button>
         </div>
       </nav>
     </header>

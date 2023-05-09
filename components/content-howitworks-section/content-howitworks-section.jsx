@@ -37,7 +37,7 @@ function ContentHowItWorks() {
              }}
               logo={{
                  imageUrl: 'https://res.cloudinary.com/dbkkaasqe/image/upload/v1682575548/HeroPic_hds8jj.svg',
-                 onClickUrl: 'https://spacejelly.dev'
+                 onClickUrl: 'https://github.com/faisal-bagaziy/algolizer'
              }}
           />
         </div>
@@ -56,7 +56,7 @@ function ContentHowItWorks() {
              }}
               logo={{
                  imageUrl: 'https://res.cloudinary.com/dbkkaasqe/image/upload/v1682575548/HeroPic_hds8jj.svg',
-                 onClickUrl: 'https://spacejelly.dev'
+                 onClickUrl: 'https://github.com/faisal-bagaziy/algolizer'
              }}
           />
         </div>

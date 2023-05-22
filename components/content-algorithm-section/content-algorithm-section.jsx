@@ -15,9 +15,7 @@ function ContentAlgorithmSection() {
             <Link href="../algorithms-catagory/searching">
                  <Card title="Searching" description="Find a specific value in a collection of values." icon="/search.svg" width={200} height={200} />
             </Link>
-            <Link href="../algorithms-catagory/learning">
-                 <Card title="Learning" description="Use data to learn and make predictions or decisions." icon="/learn.svg" width={200} height={200} />
-            </Link>
+
         </div>
       </div>
     </section>

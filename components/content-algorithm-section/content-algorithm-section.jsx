@@ -13,7 +13,7 @@ function ContentAlgorithmSection() {
                  <Card title="Sorting" description="Sort a collection of values in a particular order." icon="/sort.svg" width={200} height={200} />
             </Link>
             <Link href="../algorithms-catagory/searching">
-                 <Card title="Searching" description="Find a specific value in a collection of values." icon="/search.svg" width={200} height={200} />
+                 <Card title="Searching" description="specific value in a collection of values." icon="/search.svg" width={200} height={200} />
             </Link>
 
         </div>
